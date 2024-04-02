@@ -1,9 +1,252 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T10:44:40.129Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" version="24.2.1" etag="aVpXg36eWs8NB_DWi5FI" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T12:45:27.234Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="ByTwQBUqvEl1FKlndEq4" version="24.2.1" type="github">
   <diagram name="Страница — 1" id="c1UMaXYkpZ9lA620PUn9">
-    <mxGraphModel>
+    <mxGraphModel dx="1134" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-2" value="Юнит тесты" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="60" y="50" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-3" value="Интеграционные тесты" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="20" y="550" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-4" value="Тестовые ресты" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-5" value="Авто тесты" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="40" y="880" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-6" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;уже есть&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;TestContainers + gitlab services покрывают больше 100 процентов потребностей. То, что больше ста заступает в проблематику интеграционных тестов&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="50" width="450" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-7" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 16px;&quot;&gt;1. запуск всех нужных сервисов локально&lt;/h1&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;Идея позволяет это делать безболезненно, предоставляя возможность сохранять и делиться ярлыками запуска сервисов. Докер десктоп позволяет запустить все сервера без всяких проблем.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="20" y="230" width="350" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-9" value="&lt;h1 style=&quot;text-align: justify; margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;2. тестовые ресты берутся со стендов&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;В соответствующих окружениях с нужными версиями сервисов выполнятся запросы для проверки работоспособности реализации.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="390" y="210" width="420" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-12" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 16px;&quot;&gt;3. Локальный запуск посредствам Docker&lt;/h1&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;Автоматизация сборки образа предположительно либо это запуск скриптов, либо написание плагина для интересующего сборщика, надо учитывать необходимость исключения из образа сервисов, которые будут запущены локально и IDE&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="220" y="370" width="590" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-13" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 17px;&quot;&gt;1. Интеграционные тесты являются отдельным проектом&lt;/h1&gt;&lt;p style=&quot;font-size: 17px;&quot;&gt;Развертывание сервисов и запуск интеграционных тестов производится прохождением пайпов специального проекта интеграционното тестирования. Создание отдельных сценариев проведения интеграционного теста происходит посредствам ветвления репозитория (проведение интеграционного тестирования не происходит паралельно, только в один момент времени для отдельновзятого варианта сборки системы). Процесс может быть организован аналогично реализации идеи по тестовым рестам. Один докер образ позволяет произвести быстрый запуск, без сложной конфигурации кластеризации k8s, проверку подобных вещей возможно лучше производить в контурах нагрузочного тестирования либо что-то на подобии &quot;prodlike&quot; стенда (реальные объёмы железа, реальные объёмы данных)&lt;/p&gt;&lt;p style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="70" y="600" width="690" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-16" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Тестовая среда&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Не используется для проведения ПСИ, но является приближенной конфигурацией/состоянием целевой системы. Тестирование производится либо работизированными средствами, либо вручную аналитикамию. По всей видимости должны существовать средства приведения данной среды в нужно состояние по версиям сервисов и состоянию данных.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="920" width="670" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ikof8d_YS4LXDT-22h-A-17" target="Ikof8d_YS4LXDT-22h-A-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-17" value="репозиторий разработки - кодовая база" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ikof8d_YS4LXDT-22h-A-18" target="Ikof8d_YS4LXDT-22h-A-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-18" value="Кодин, служебные данные&lt;br&gt;testContainers" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-19" value="Тесты CI/CD&lt;div&gt;gitlab services&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-20" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="100" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-23" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="190" as="sourcePoint" />
+            <mxPoint x="1370" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-24" value="Кодер&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="320" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-25" value="svc1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="850" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-26" value="svc2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="910" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-27" value="svc3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="985" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-28" value="svc4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-29" value="ci/cd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="400" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-30" value="МУК" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="330" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-31" value="obj" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="390" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ikof8d_YS4LXDT-22h-A-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="380" as="sourcePoint" />
+            <mxPoint x="960" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikof8d_YS4LXDT-22h-A-29" target="Ikof8d_YS4LXDT-22h-A-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="380" as="sourcePoint" />
+            <mxPoint x="960" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ikof8d_YS4LXDT-22h-A-29" target="Ikof8d_YS4LXDT-22h-A-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="380" as="sourcePoint" />
+            <mxPoint x="960" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-36" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=-0.025;entryY=0.175;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ikof8d_YS4LXDT-22h-A-25" target="Ikof8d_YS4LXDT-22h-A-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="380" as="sourcePoint" />
+            <mxPoint x="960" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-37" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.05;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ikof8d_YS4LXDT-22h-A-26" target="Ikof8d_YS4LXDT-22h-A-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="380" as="sourcePoint" />
+            <mxPoint x="960" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-38" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.7;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ikof8d_YS4LXDT-22h-A-27" target="Ikof8d_YS4LXDT-22h-A-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="380" as="sourcePoint" />
+            <mxPoint x="960" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-39" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.775;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikof8d_YS4LXDT-22h-A-30" target="Ikof8d_YS4LXDT-22h-A-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="380" as="sourcePoint" />
+            <mxPoint x="1080" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-40" value="PC" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="250" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-47" value="svcX" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Ikof8d_YS4LXDT-22h-A-40">
+          <mxGeometry x="80" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-41" value="svcX" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-42" value="svcX" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="300" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-43" value="svcX" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="300" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-44" value="svcX" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="300" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-45" value="svcX" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="290" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-46" value="svcX" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="290" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-48" value="coder" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="360" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Ikof8d_YS4LXDT-22h-A-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1260" y="370" as="sourcePoint" />
+            <mxPoint x="1260" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-50" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="490" as="sourcePoint" />
+            <mxPoint x="1400" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-51" value="репозиторий интеграционното тестирования" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="910" y="585" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-52" value="среда 1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-53" value="среда 2" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="625" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-54" value="среда 3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-55" value="Команда на развертывание" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ikof8d_YS4LXDT-22h-A-51" target="Ikof8d_YS4LXDT-22h-A-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="710" as="sourcePoint" />
+            <mxPoint x="1030" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-58" value="Папы деплоя" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="505" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-59" value="артифактори" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-60" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.649;exitY=-0.043;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ikof8d_YS4LXDT-22h-A-59" target="Ikof8d_YS4LXDT-22h-A-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="710" as="sourcePoint" />
+            <mxPoint x="1030" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-61" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikof8d_YS4LXDT-22h-A-58" target="Ikof8d_YS4LXDT-22h-A-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="710" as="sourcePoint" />
+            <mxPoint x="1030" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-62" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.024;exitY=0.649;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ikof8d_YS4LXDT-22h-A-58" target="Ikof8d_YS4LXDT-22h-A-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="710" as="sourcePoint" />
+            <mxPoint x="1270" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-63" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.02;entryY=0.369;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.038;exitY=0.854;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ikof8d_YS4LXDT-22h-A-58" target="Ikof8d_YS4LXDT-22h-A-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="710" as="sourcePoint" />
+            <mxPoint x="1030" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-65" value="Команда на тестирование" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ikof8d_YS4LXDT-22h-A-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="710" as="sourcePoint" />
+            <mxPoint x="1033.04" y="763.6799999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-66" value="пайпы тестов" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="790" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-68" value="Селениям и прочее" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1161" y="770" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.046;exitY=0.391;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ikof8d_YS4LXDT-22h-A-66" target="Ikof8d_YS4LXDT-22h-A-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="710" as="sourcePoint" />
+            <mxPoint x="1030" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-70" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.695;exitY=0.024;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ikof8d_YS4LXDT-22h-A-68" target="Ikof8d_YS4LXDT-22h-A-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="710" as="sourcePoint" />
+            <mxPoint x="1030" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-71" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.96;exitY=0.229;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ikof8d_YS4LXDT-22h-A-68" target="Ikof8d_YS4LXDT-22h-A-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="710" as="sourcePoint" />
+            <mxPoint x="1030" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikof8d_YS4LXDT-22h-A-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.989;exitY=0.744;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ikof8d_YS4LXDT-22h-A-68" target="Ikof8d_YS4LXDT-22h-A-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="710" as="sourcePoint" />
+            <mxPoint x="1030" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
